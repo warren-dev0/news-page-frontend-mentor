@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../source/src/css/index.css">
+        <title>Home</title>
+</head>
+<body>
+    <div class="container-fluid py-3 py-md-5">
+
+        <nav class="navbar navbar-expand-md py-2 py-md-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./src/img/logo.svg" class="w-100" alt="navbar-logo">
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="./src/img/icon-menu.svg" alt="togglerbtn">
+                </button>
+                <div class="offcanvas offcanvas-end w-75" id="navbarNav">
+                    <div class="offcanvas-header justify-content-end">
+                        <button data-bs-dismiss="offcanvas" class="border-0 bg-transparent">
+                            <img src="./src/img/icon-menu-close.svg" alt="togglerbtn-closed">
+                        </button>
+                    </div>
+                    <div class="offcanvas-body px-4 px-md-0 mt-5 mt-md-0">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fs-4">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">New</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Popular</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Trending</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Categories</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid page-center-content d-md-flex">
+            <div class="main-new col-12 col-md-8 mt-3 mt-md-4">
+                <picture class="col-12 w-100">
+                    <source media="(min-width: 768px)" srcset="./src/img/image-web-3-desktop.jpg">
+                    <img src="./src/img/image-web-3-mobile.jpg" alt="img-web-mobile" class="w-100">
+                </picture>
+
+                <div class="main-new-info d-md-flex py-3">
+                    <div class="main-new-title col-12 col-md-6 py-2">
+                        <h1>
+                            The Bright
+                            Future of Web
+                            3.0?
+                        </h1>
+                    </div>
+                    
+                    <div class="main-new-text col-12 col-md-6">
+                        <p>
+                            We dive into the next evolution of the web that
+                            claims to put the power of the platforms back
+                            into the hands of the people. But is it really
+                            fulfilling its promise?
+                        </p>
+                        <button class="main-new-btn py-2 px-3 border-0 col-6">
+                            READ MORE
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="black-new bg-black col-12 col-md-4 p-3 mt-5 mt-md-4 text-white">
+                <div class="black-new-title fw-bold">
+                    <h1>New</h1>
+                </div>
+                <div class="black-new-body py-2">
+
+                    <div class="black-new-item">
+                        <span class="item-title">
+                            Hydrogen VS Electric Cars
+                        </span>
+                        <p class="item-info">
+                            Will hydrogen-fueled cars ever catch up
+                            to EVs?
+                        </p>
+                    </div>
+
+                    <hr>
+
+                    <div class="black-new-item">
+                        <span class="item-title">
+                            The Downsides of AI Artistry
+                        </span>
+                        <p class="item-info">
+                            What are the possible adverse effects of
+                            on-demand AI image generation?
+                        </p>
+                    </div>
+
+                    <hr>
+
+                    <div class="black-new-item">
+                        <span class="item-title">
+                            Is VC Funding Drying Up?
+                        </span>
+                        <p class="item-info">
+                            Private funding by VC firms is down 50%
+                            YOY. We take a look at what that means.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+<script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous">
+</script>
+</html>

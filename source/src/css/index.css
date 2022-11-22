@@ -1,0 +1,106 @@
+@font-face {
+    font-family: inter-regular;
+    src: url(/source/src/fonts/static/Inter-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: inter-bold;
+    src: url(/source/src/fonts/static/Inter-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: inter-extrabold;
+    src: url(/source/src/fonts/static/Inter-ExtraBold.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: inter-variablefont;
+    src: url(/source/src/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    font-family: 'inter-regular';
+}
+
+.navbar-brand {
+    width: 4rem;
+}
+
+@media (max-width: 425px) {
+    .navbar-brand {
+        width: 3rem;
+    }
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.offcanvas-header {
+    padding: 2.3rem 2.3rem 0 0;
+}
+
+.main-new-title h1{
+    font-family: 'inter-extrabold';
+}
+
+@media (max-width: 320px) {
+    .main-new-title h1{
+        font-size: 2rem;
+    }
+    .main-new-text p{
+        font-size: 9pt;
+    }
+}
+
+@media (min-width: 375px) {
+    .main-new-title h1{
+        font-size: 2.5rem;
+    }
+    .main-new-text p{
+        font-size: 11pt;
+    }
+}
+
+@media (min-width: 425px) {
+    .main-new-title h1{
+        font-size: 3rem;
+    }
+    .main-new-text p{
+        font-size: 12.5pt;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-new-title h1{
+        font-size: 2rem;
+    }
+    .main-new-text p{
+        font-size: 8pt;
+    }
+}
+
+.main-new-btn {
+    font-family: 'inter-variablefont';
+    background-color: rgb(233, 83, 70);
+    color: #ffff;
+    font-size: .7rem;
+}
+
+.black-new-title h1{
+    color: #EDA038;
+    font-size: 5vw;
+}
+
+.item-info {
+    color: rgb(141, 141, 141);
+}
+
+@media (min-width: 768px) {
+    .page-center-content {
+        gap: 1rem;
+    }
+}
